@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.read-more {
+    background-color: #e0e9ff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #d0d9ff;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="Lake-reflection20150805-30600-1t8rqoj (1).jpg" ="Lago di Braies">
+        <div class="card-content">
+            <div class="tags">
+                <span class="tag">Nature</span>
+                <span class="tag">Lake</span>
+            </div>
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
